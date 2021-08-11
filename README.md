@@ -1,43 +1,30 @@
-# [Icons Example](https://docs.expo.io/versions/latest/guides/icons/)
+## Mobile Flashcards
+Mobile Flashcards is a React Native app for iOS and Android that allows users to create decks, add cards and quiz themselves.
 
-<p>
-  <!-- iOS -->
-  <img alt="Supports Expo iOS" longdesc="Supports Expo iOS" src="https://img.shields.io/badge/iOS-4630EB.svg?style=flat-square&logo=APPLE&labelColor=999999&logoColor=fff" />
-  <!-- Android -->
-  <img alt="Supports Expo Android" longdesc="Supports Expo Android" src="https://img.shields.io/badge/Android-4630EB.svg?style=flat-square&logo=ANDROID&labelColor=A4C639&logoColor=fff" />
-  <!-- Web -->
-  <img alt="Supports Expo Web" longdesc="Supports Expo Web" src="https://img.shields.io/badge/web-4630EB.svg?style=flat-square&logo=GOOGLE-CHROME&labelColor=4285F4&logoColor=fff" />
-</p>
+### Installation
 
-The package `@expo/vector-icons` enables you to use most popular icon sets in a universal app. For more information please refer to the docs: [Expo Icons](https://docs.expo.io/versions/latest/guides/icons/).
+Clone the repository, change directories, and use npm or yarn to install the dependencies.
 
-## 🚀 How to use
+$ git clone https://github.com/james-priest/mobile-flashcards.git
+$ cd mobile-flashcards
+$ yarn
 
-#### Creating a new project**
+## 📝 Usage
 
-- Install the CLI: `npm i -g expo-cli`
-- Create a project: `expo init `
-- `cd` into the project
+The project can be run with npm or yarn
 
-### Using Icons
+    yarn start
 
-- Install the package:
- ```sh
- expo install @expo/vector-icons
- ```
-- Import the fonts you want to use
-```js
-import {
-  FontAwesome,
-  AntDesign,
-  Entypo,
-  EvilIcons,
-  Feather,
-  FontAwesome
-} from '@expo/vector-icons';
-```
+This will open Expo Developer Tools in the browser. You can then do one of the following.
 
-## 📝 Notes
+    Use your device to test:
+
+    Scan the QR Code using the Expo Client app (Expo Client for Android & iOS) from an Android or iOS device.
+
+    Use an Android Emulator or iOS Simulator to run the app:
+        iOS Simulator Setup
+        Android Emulator Setup
+
 
 - [Icon directory](https://expo.github.io/vector-icons/)
 - [`@expo/vector-icons` documentation](https://docs.expo.io/versions/latest/guides/icons/)
