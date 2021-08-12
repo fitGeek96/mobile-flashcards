@@ -5,9 +5,9 @@ Mobile Flashcards is a React Native app for iOS and Android that allows users to
 
 Clone the repository, change directories, and use npm or yarn to install the dependencies.
 
-$ git clone https://github.com/fitGeek96/mobile-flashcards
-$ cd mobile-flashcards
-$ yarn
+$ git clone https://github.com/fitGeek96/mobile-flashcards <br>
+$ cd mobile-flashcards <br>
+$ yarn <br>
 
 ## 📝 Usage
 
